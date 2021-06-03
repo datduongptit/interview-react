@@ -262,3 +262,21 @@ console.log(js);
 - B: [9, 10, 1]
 - C: [1, 9, 10]
 - D: ReferenceError 
+
+###### 13. What's the output?
+
+```javascript
+let x = {};
+let y = {};
+let z = x;
+
+console.log(x == y);
+console.log(x === y);
+console.log(x == z);
+console.log(x === z);
+```
+
+- A: true true true true;
+- B: false false false false;
+- C: true true false false;
+- D: false false true true;
